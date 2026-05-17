@@ -33,6 +33,11 @@ https://trakteer.id/FormerMarsPresident/tip
 https://trakteer.id/FormerMarsPresident/tip
 https://trakteer.id/FormerMarsPresident/tip
 https://trakteer.id/FormerMarsPresident/tip
+https://t.me/tvromlahgroup/331
+https://t.me/tvromlahgroup/331
+https://t.me/tvromlahgroup/331
+https://t.me/tvromlahgroup/331
+https://t.me/tvromlahgroup/331
 
 -- Indonesia (IPTV) --
 
@@ -291,8 +296,11 @@ https://indihuy.streamized.net/atm/DASH/JAK_TV/manifest.mpd
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/960px-Telegram_logo.svg.png" group-title="Info", Telegram Channel (https://t.me/tvromlah)
 https://t.me/tvromlah
 
-#EXTINF:-1 tvg-logo="https://edge-cdn.trakteer.id/images/mix/trakteer-logo-new.png?v=14-05-2025" group-title="Info", Donasi Trakteer (https://trakteer.id/FormerMarsPresident/tip)
+#EXTINF:-1 tvg-logo="https://edge-cdn.trakteer.id/images/mix/trakteer-logo-new.png?v=14-05-2025" group-title="Info", Donasi lewat Trakteer (https://trakteer.id/FormerMarsPresident/tip)
 https://trakteer.id/FormerMarsPresident/tip
+
+#EXTINF:-1 tvg-logo="https://vectorseek.com/wp-content/uploads/2023/09/Quick-Response-Code-Indonesia-Standard-QRIS-Logo-Vector.svg-.png" group-title="Info", Donasi lewat QRIS (https://t.me/tvromlahgroup/331)
+https://t.me/tvromlahgroup/331
 
 -- Indonesia (Web Stream) --
 
