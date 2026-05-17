@@ -123,16 +123,16 @@ https://tvratu.my.id/vid/index.mpd?id=205&type=dash
 https://d2tjypxxy769fn.cloudfront.net/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd
 #https://d2tjypxxy769fn.cloudfront.net/out/v1/bb2b6e6606cb417f807fa017c1a2aa7f/index.mpd
 
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://object-streamo.emonaja.com/img/indosiar.png" group-title="Indonesia (IPTV)", Indosiar (Dens)
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
+https://op-group1-swiftservehd-1.dens.tv/h/h235/index.m3u8
+
 #EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://object-streamo.emonaja.com/img/sctv.png" group-title="Indonesia (IPTV)", SCTV (Emtek)
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
 #EXTVLCOPT:http-referrer=https://www.vidio.com/
 #EXTVLCOPT:http-origin=https://www.vidio.com
 https://ratu77.adptv.workers.dev/index.mpd?id=204&type=dash
-
-#EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://object-streamo.emonaja.com/img/sctv.png" group-title="Indonesia (IPTV)", SCTV (Dens)
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
-https://op-group1-swiftservehd-1.dens.tv/h/h235/index.m3u8
 
 #EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://object-streamo.emonaja.com/img/sctv.png" group-title="Indonesia (IPTV)", SCTV (V+)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -700,10 +700,15 @@ https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
 https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd
 
-#EXTINF:-1 group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/50/MNX_new_logo.png", MNX HD
+#EXTINF:-1 group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/50/MNX_new_logo.png", MNX
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
 https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd
+
+#EXTINF:-1 tvg-id="RomedyNow.in@SD" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/79/Logo_Romedy_Now.jpg", Romedy Now
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
+https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd
 
 #EXTINF:-1 group-title="Movies" tvg-name="My Cinema Europe" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYCxS0W-fLPnpzkOiXMk6bQFCddX2IvIGHqg&s", My Cinema Europe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
@@ -965,6 +970,14 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01
 #EXTINF:-1 tvg-id="JOBKDTV.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png" group-title="Entertainment", NHK G Osaka
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
 
+#EXTINF:-1 tvg-id="CCTV4.cn@SD" tvg-logo="https://live.fanmingming.cn/tv/CCTV4.png" group-title="Entertainment", CCTV4 (HD)
+http://74.91.26.218:82/live/cctv4hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV4.cn@SD" tvg-logo="https://live.fanmingming.cn/tv/CCTV4.png" group-title="DENSTV", CCTV4 (Dens)
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
+https://op-group1-swiftservesd-1.dens.tv/s/s19/index.m3u8?app_type=web&userid=lite&chname=CCTV-4
+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ea468ed546bd4f94b9fd8355d5656997:a3b8756a947905cb44c997b656ffb012
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -1131,6 +1144,12 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/936ed6f98448469b924a0ce456586651/in
 
 #EXTINF:-1 tvg-chno="88" tvg-logo="https://object-streamo.emonaja.com/img/history.png" tvg-id="History.HD.us2" tvg-name="History Channel" group-title="Knowledge", History (United States)
 http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/761
+
+#EXTINF:-1 tvg-id="LoveNature.ca@SD" group-title="Knowledge" tvg-logo="https://www.visionplus.id/images/repository/756/507756-LOGO-m.png", Love Nature
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6c4190749d6f4b51bde2df71715e843b:9dfc9803c0fdbb1cd6df2188a6f29064
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/15500e8f0dc44058ba0431d39a8fed57/index.mpd
 
 #EXTINF:-1 group-title="Knowledge" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/2019_Discovery_logo.svg", Discovery Channel (MAxstream HD)
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
@@ -2554,14 +2573,14 @@ https://indihuy.streamized.net/atm/mpd-vo/pramborstv/manifest.mpd
 #EXTVLCOPT:http-origin=https://www.vidio.com
 #https://ratu77.adptv.workers.dev/index.mpd?id=7619&type=dash
 
-#EXTINF:-1 tvg-id="MusikIndonesia.id" tvg-logo="https://i.postimg.cc/xdtkx9P0/musik-indo.png" group-title="Music", Musik Indonesia
+#EXTINF:-1 tvg-id="MusikIndonesia.id" tvg-logo="https://i.postimg.cc/xdtkx9P0/musik-indo.png" group-title="Music", Musik Indonesia (Maxstream)
 #EXTVLCOPT:http-referrer=https://maxstream.tv/
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e092c5a72f3444419756b6a66c5e64da:8193b7dbb3e1c62ddd30546d3aaf9d40
 #https://cdn08jtedge.indihometv.com/dassdvr/134/musikindo/manifest_wuseetv.mpd
 
-#EXTINF:-1 tvg-id="MusikIndonesia.id" tvg-logo="https://i.postimg.cc/xdtkx9P0/musik-indo.png" group-title="Music", Musik Indonesia (Alt)
+#EXTINF:-1 tvg-id="MusikIndonesia.id" tvg-logo="https://i.postimg.cc/xdtkx9P0/musik-indo.png" group-title="Music", Musik Indonesia (Transvision)
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.stream_headers=user-agent=Xstream XGO/1.22 (Linux;Android 9) ExoPlayerLib/2.10.5
