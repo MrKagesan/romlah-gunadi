@@ -280,13 +280,13 @@ https://cdnjkt913.transvision.co.id:1000/live/master/5/4028c68572841ba301729cd58
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://indihuy.streamized.net/atm/DASH/JAK_TV/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/960px-Telegram_logo.svg.png" group-title="Info", Telegram Channel (https://t.me/tvromlah)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/960px-Telegram_logo.svg.png" group-title="Info", Telegram Channel => https://t.me/tvromlah
 https://t.me/tvromlah
 
-#EXTINF:-1 tvg-logo="https://edge-cdn.trakteer.id/images/mix/trakteer-logo-new.png?v=14-05-2025" group-title="Info", Donasi lewat Trakteer (https://trakteer.id/FormerMarsPresident/tip)
+#EXTINF:-1 tvg-logo="https://edge-cdn.trakteer.id/images/mix/trakteer-logo-new.png?v=14-05-2025" group-title="Info", Donasi lewat Trakteer => https://trakteer.id/FormerMarsPresident/tip
 https://trakteer.id/FormerMarsPresident/tip
 
-#EXTINF:-1 tvg-logo="https://vectorseek.com/wp-content/uploads/2023/09/Quick-Response-Code-Indonesia-Standard-QRIS-Logo-Vector.svg-.png" group-title="Info", Donasi lewat QRIS (https://t.me/tvromlahgroup/331)
+#EXTINF:-1 tvg-logo="https://vectorseek.com/wp-content/uploads/2023/09/Quick-Response-Code-Indonesia-Standard-QRIS-Logo-Vector.svg-.png" group-title="Info", Donasi lewat QRIS => https://t.me/tvromlahgroup/331
 https://t.me/tvromlahgroup/331
 
 -- Indonesia (Web Stream) --
@@ -346,15 +346,12 @@ https://63b2dc7196c38.streamlock.net:1937/JAWAPOSTVJKT/_definst_/myStream/playli
 https://wahyu1ptv.pages.dev/AnTV-HD.m3u8
 
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://object-streamo.emonaja.com/img/indosiar.png" group-title="Indonesia (Digital)", Indosiar
-http://103.148.44.38:8000/play/a05c/index.m3u8
-
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://object-streamo.emonaja.com/img/indosiar.png" group-title="Indonesia (Digital)", Indosiar (Alt)
 http://opplextv.cyou:8080/live/nasir6160/nasir/350972.ts
 
 #EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://object-streamo.emonaja.com/img/sctv.png" group-title="Indonesia (Digital)", SCTV
 http://opplextv.cyou:8080/nasir6160/nasir/351030
 
-#EXTINF:-1 tvg-id="Moji.id" tvg-name="Moji" tvg-logo="https://object-streamo.emonaja.com/img/moji.png" group-title="Indonesia (Digital)", Moji (Alt)
+#EXTINF:-1 tvg-id="Moji.id" tvg-name="Moji" tvg-logo="https://object-streamo.emonaja.com/img/moji.png" group-title="Indonesia (Digital)", Moji
 http://opplextv.cyou:8080/nasir6160/nasir/350997
 
 #EXTINF:-1 tvg-name="MDTV" tvg-logo="https://object-streamo.emonaja.com/img/mdtv.png" group-title="Indonesia (Digital)", MDTV
@@ -364,15 +361,6 @@ https://wahyu1ptv.pages.dev/MDTV-HD.m3u8
 -- All-in-One Entertainment --
 
 # Movies #
-
-#EXTINF:-1 group-title="Movies" tvg-logo="https://object-streamo.emonaja.com/img/imc.png", IMC (Maxstream)
-#EXTVLCOPT:http-user-agent=Mozila/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
-#EXTVLCOPT:http-referrer=https://maxstream.tv/
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1d7ddbeb304e46f38192f31d7d91bfc5:1c524bbe404124d0a4e24bfa75491ca2
-#https://cdn08jtedge.indihometv.com/dassdvr/130/imc/manifest.mpd
 
 #EXTINF:-1 group-title="Movies" tvg-logo="https://object-streamo.emonaja.com/img/imc.png", IMC (V+)
 #EXTVLCOPT:http-referrer=https://www.visionplustv.id/
@@ -532,29 +520,15 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/010bb28c19b64975b318d3b00f58b18b/ind
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016d0555b83e37a3/manifest.mpd
 
-#EXTINF:-1 tvg-id="Galaxy.id" tvg-name="Galaxy" tvg-logo="https://object-streamo.emonaja.com/img/galaxy.png" group-title="Movies", Galaxy (FM)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#EXTVLCOPT:http-referrer=https://www.firstmedia.com
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_key=dc67f118be54365c980bf68d63caf2dd:997cd5aa988e1a3d6a6c570c0656b13b
-https://atemecdnbalancer-voe.sysln.id/live/eds/GalaxyHD/newmpd/GalaxyHD.mpd
-
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 
-#EXTINF:-1 tvg-id="Galaxy.id" tvg-name="Galaxy" tvg-logo="https://object-streamo.emonaja.com/img/galaxy.png" group-title="Movies", Galaxy (V+)
+#EXTINF:-1 tvg-id="Galaxy.id" tvg-name="Galaxy" tvg-logo="https://object-streamo.emonaja.com/img/galaxy.png" group-title="Movies", Galaxy
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cfbae59795044563b5b9b4927a79a76e:ce57c9490bd772b390d78b9fedaf8d36
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/751a0982779f4edd904205eb351e220d/index.mpd
 
-#EXTINF:-1 tvg-id="Galaxy.Premium.id" tvg-name="Galaxy Premium" tvg-logo="https://object-streamo.emonaja.com/img/galaxypremium.png" group-title="Movies", Galaxy Premium (FM)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#EXTVLCOPT:http-referrer=https://www.firstmedia.com
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_key=8652ff2b1b893de8945f4ae28b516fd3:096bade878974222776b9929021f9d07
-https://atemecdnbalancer-voe.sysln.id/live/eds/GalaxyPremiumHD/newmpd/GalaxyPremiumHD.mpd
-
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 
-#EXTINF:-1 tvg-id="Galaxy.Premium.id" tvg-name="Galaxy Premium" tvg-logo="https://object-streamo.emonaja.com/img/galaxypremium.png" group-title="Movies", Galaxy Premium (V+)
+#EXTINF:-1 tvg-id="Galaxy.Premium.id" tvg-name="Galaxy Premium" tvg-logo="https://object-streamo.emonaja.com/img/galaxypremium.png" group-title="Movies", Galaxy Premium
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0d9539db24004da9ac36ea49a09e255c:30304533b5008ad7f33c25f225506bc0
@@ -713,14 +687,6 @@ https://op-group1-swiftservehd-1.dens.tv/h/h18/index.m3u8
 # Entertainment #
 
 #EXTVLCOPT:http-referrer=https://maxstream.tv/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=727489e7583045de8d7e118acb8f757d:13fe71d17a1f9a8cdec42b1089275b03
-#EXTINF:-1 tvg-id="Maxstream.id" tvg-name="Maxstream" tvg-logo="https://images.indihometv.com/images/channels/imageCir_180_x_180__2026_02_12_15_17_01.png" group-title="Entertainment", Maxstream TV
-#https://cdn08jtedge.indihometv.com/dassdvr/134/maxstream/manifest_w1198082458_qRFZS.mpd?encp=&uid=&expp=
-#https://cdn08jtedge.indihometv.com/dassdvr/134/maxstream/manifest_wuseetv.mpd
-
-#EXTVLCOPT:http-referrer=https://maxstream.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
 #EXTINF:-1 tvg-id="Max.Reels.id" tvg-logo="https://images.indihometv.com/images/channels/imageCir_180x180_CLMAXSReels_2026_01_31_00_37_47.jpg" group-title="Entertainment", Max Reels
 https://indihuy.streamized.net/atm/DASH/useeprime/useeprime-avc1_2500000=13-3293972000000000.mpd
@@ -814,16 +780,6 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/333a9658ed6a4424a92e319114fb7111/in
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://indihuy.streamized.net/atm/DASH/hits/hits-avc1_2500000=7-3277707030000000.mpd
 
-#EXTINF:-1 tvg-id="HITS.id" tvg-name="HITS" tvg-logo="https://object-streamo.emonaja.com/img/hits.png" group-title="Entertainment", Hits (Maxstream HD)
-#KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.indihometv.com
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://kelontong.semar.my.id/indick.kt
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#https://cdn08jtedge.indihometv.com/dassdvr/133/hits/manifest_wuseetv.mpd
-
 #EXTINF:-1 tvg-id="HITS.id" tvg-name="HITS" tvg-logo="https://object-streamo.emonaja.com/img/hits.png" group-title="Entertainment", Hits (Cignal)
 #EXTVLCOPT:http-referrer=https://cignal.tv/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -858,12 +814,6 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/1880fc1b32d3449196e80345f6cd5918/ind
 #EXTINF:-1 tvg-id="TLC" group-title="Entertainment" tvg-logo="https://brandslogos.com/wp-content/uploads/images/large/tlc-logo.png", TLC (FM)
 https://atemecdnbalancer-voe.sysln.id/live/eds/TLCHD/mediampd/TLCHD.mpd
 
-#EXTINF:-1 tvg-id="TLC" group-title="Entertainment" tvg-logo="https://brandslogos.com/wp-content/uploads/images/large/tlc-logo.png", TLC (Maxstream)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0f437016dfa54cc584854609df0ca896:2775a3a5d969c8effa8f7a6a7b7c3243
-#https://cdn08jtedge.indihometv.com/dassdvr/133/tlc/manifest.mpd
-
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6dc31ac1031242a8b0c37286acb66a37:648286167b494bf9ee122eced0e37de1
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -874,16 +824,6 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/FoodNetworkHD/mediampd/FoodNetwor
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4a9d2f7c1e6b4c8d8a55d7b1e3f0c926:2e62531bdb450480a18197b14f4ebc77
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_foodnetwork_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="AFN (HD).sg" tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/indonesia.xml" tvg-logo="https://i.imgur.com/O5jBcL2.png" group-title="Entertainment", Asian Food Network
-#KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.indihometv.com
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d591798aa38d43f9a879f2131227916f:c3eae7f33710d7d9e0058244aff37fb0
-#https://cdn08jtedge.indihometv.com/dassdvr/130/afc/manifest_wuseetv.mpd
 
 #EXTINF:-1 tvg-id="AXN.id" tvg-name="AXN" tvg-logo="https://object-streamo.emonaja.com/img/axn.png" group-title="Entertainment", AXN (Maxstream)
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
@@ -1017,15 +957,6 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/6dc5412d26ea4e65961c825d866f2a34/ind
 #EXTINF:-1 tvg-id="tvN.kr" tvg-name="tvN" tvg-logo="https://object-streamo.emonaja.com/img/tvn.png" group-title="Entertainment", tvN CJ E&M
 https://d2hbbjdi2lggii.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sbr4a75paq6du-ssai-prd/080e7b54_ab07_49c8_b8e3_8811cf63fde2/hls/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ONE.id" tvg-name="ONE" tvg-logo="https://object-streamo.emonaja.com/img/one.png" group-title="Entertainment", ONE (Maxstream)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
-#EXTVLCOPT:http-referrer=https://maxstream.tv/
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=94916fa7ad4c44ad83b1175956adaa05:df19614d4f9f9fe836590d8d98ab2699
-#https://cdn08jtedge.indihometv.com/dassdvr/134/sone/manifest.mpd
-
 #EXTINF:-1 tvg-id="ONE.id" tvg-name="ONE" tvg-logo="https://object-streamo.emonaja.com/img/one.png" group-title="Entertainment", ONE (Transvision)
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -1109,15 +1040,6 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Animalplanethd2/default/index.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/4e5b2a283adf462c8b6b55b2ef059fac/index.mpd
 
-#EXTINF:-1 tvg-id="HGTV" tvg-name="HGTV Asia" tvg-logo="https://object-streamo.emonaja.com/img/hgtv.webp" group-title="Knowledge", HGTV (Maxstream)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
-#EXTVLCOPT:http-referrer=https://maxstream.tv/
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d0c607f0958a4d85bb7b2be81e9ef278:cb3e057a2fce88366d0ef4d6dcdd7a5f
-#https://cdn08jtedge.indihometv.com/dassdvr/134/hgtv/manifest_wuseetv.mpd
-
 #EXTINF:-1 tvg-id="HGTV" tvg-name="HGTV Asia" tvg-logo="https://object-streamo.emonaja.com/img/hgtv.webp" group-title="Knowledge", HGTV (Cignal)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f1e8c2d97a3b4f5d8c669d1a2b7e4c30:03aaa7dcf893e6b934aeb3c46f9df5b9
@@ -1149,14 +1071,7 @@ http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/761
 #KODIPROP:inputstream.adaptive.license_key=6c4190749d6f4b51bde2df71715e843b:9dfc9803c0fdbb1cd6df2188a6f29064
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/15500e8f0dc44058ba0431d39a8fed57/index.mpd
 
-#EXTINF:-1 group-title="Knowledge" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/2019_Discovery_logo.svg", Discovery Channel (MAxstream HD)
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4271dec5b6794650872dc915fe10fdeb:0e64ddadd1cbd079f98c597fc01c06bf
-#https://cdn08jtedge.indihometv.com/dassdvr/133/disco/manifest.mpd
-
-#EXTINF:-1 group-title="Knowledge" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/2019_Discovery_logo.svg", Discovery Channel (MAxstream SD)
+#EXTINF:-1 group-title="Knowledge" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/2019_Discovery_logo.svg", Discovery Channel (Maxstream)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
 #EXTVLCOPT:http-referrer=https://maxstream.tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1185,15 +1100,6 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/TheIndonesianChannelHD/mediampd/T
 
 # Kids & Animation #
 
-#EXTINF:-1 group-title="Kids & Animation" tvg-id="Animax.id" tvg-name="Animax" tvg-logo="https://object-streamo.emonaja.com/img/animax.png", Animax (Maxstream)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
-#EXTVLCOPT:http-referrer=https://maxstream.tv/
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=74eaa28cbcf24bafb4c8089abd018a63:1443c25b38e58478ee28628bcd9eb29b
-#https://cdn08jtedge.indihometv.com/dassdvr/130/animax/manifest.mpd
-
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1203,12 +1109,6 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/ind
 
 #EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax" group-title="Kids & Animation" tvg-logo="https://object-streamo.emonaja.com/img/animax.png", Animax (Primehome)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f2c313fce55344e5a52389741d1f53f8:bae1e47db562b66895beb8fccdf2ad8a
-#EXTINF:-1 tvg-id="Aniplus" tvg-name="Aniplus" tvg-logo="https://object-streamo.emonaja.com/img/aniplus.png" group-title="Kids & Animation", Aniplus
-#https://cdn08jtedge.indihometv.com/dassdvr/134/aniplus/manifest_wuseetv.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=ec31647c5c3b490bbb5c840ca3e96c9e:a28271a4ba4d085efa1f7738e0f82ea1
@@ -1476,7 +1376,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/in
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
 
-#EXTINF:-1 tvg-id="SoccerChannel.id" tvg-name="Soccer Channel" tvg-logo="https://object-streamo.emonaja.com/img/soccerchannel.png" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-title="Sports (Indonesia)", Soccer Channel
+#EXTINF:-1 tvg-id="Sportstars2" tvg-name="Sportstars2" tvg-logo="https://object-streamo.emonaja.com/img/soccerchannel.png" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-title="Sports (Indonesia)", Soccer Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1492,12 +1392,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/f224a4945f2f48e892fb896645a9af6b/in
 
 #EXTVLCOPT:http-referrer=https://maxstream.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
-#EXTINF:-1 tvg-id="Max.Sports.id" tvg-logo="https://images.indihometv.com/images/channels/imageCir_180x180_CLMAXSports_2026_01_31_00_39_38.jpg" group-title="Sports (Indonesia)", Max Sports (HD)
-#https://cdn08jtedge.indihometv.com/dassdvr/194/useesport/manifest.mpd
-
-#EXTVLCOPT:http-referrer=https://maxstream.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
-#EXTINF:-1 tvg-id="Max.Sports.id" tvg-logo="https://images.indihometv.com/images/channels/imageCir_180x180_CLMAXSports_2026_01_31_00_39_38.jpg" group-title="Sports (Indonesia)", Max Sports (SD)
+#EXTINF:-1 tvg-id="Max.Sports.id" tvg-logo="https://images.indihometv.com/images/channels/imageCir_180x180_CLMAXSports_2026_01_31_00_39_38.jpg" group-title="Sports (Indonesia)", Max Sports
 https://indihuy.streamized.net/atm/DASH/useesport/useesport-avc1_2500000=7-3277707030000000.mpd
 
 # Sky Sports #
@@ -1975,48 +1870,16 @@ https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
 # Hub Premier #
 
 #EXTINF:-1 tvg-url="https://epg.pw/api/epg.xml?lang=en&date=20260421&channel_id=369784" tvg-id="369784" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/221_1920x1080_HTV.png?w=272" group-title="Hub Premier", Hub Premier 1
-#EXTVLCOPT:http-user-agent=OTT Navigator/1.7.4.1 (Linux; Android 12; id_ID; 87das6) ExoPlayerLib/2.15.1
-#EXTVLCOPT:http-header=X-Requested-With=SemarHttpRequest
-#KODIPROP:inputstream.adaptive.stream_headers=X-Requested-With=SemarHttpRequest
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d9df2aa9c4974ed3bbf0730defad68fe:0cac792b5d5ef9ffb24e324a52c3da0b
-https://sports.semar.my.id/manifest/HubPremier1.mpd|X-Requested-With=SemarHttpRequest
-
-#EXTINF:-1 tvg-url="https://epg.pw/api/epg.xml?lang=en&date=20260421&channel_id=369784" tvg-id="369784" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/221_1920x1080_HTV.png?w=272" group-title="Hub Premier", Hub Premier 1 (Alt)
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314077&extension=ts&play_token=OkTEn6qiDL
 https://012v4.goiptv.us.ci/stream/starhub/hubpremier1hd/
 
 #EXTINF:-1 tvg-url="https://epg.pw/api/epg.xml?lang=en&date=20260421&channel_id=369822" tvg-id="369822" tvg-logo="https://poster.starhubgo.com/Linear_channels2/222_1920x1080_HTV.png?w=272" group-title="Hub Premier", Hub Premier 2
-#EXTVLCOPT:http-user-agent=OTT Navigator/1.7.4.1 (Linux; Android 12; id_ID; 87das6) ExoPlayerLib/2.15.1
-#EXTVLCOPT:http-header=X-Requested-With=SemarHttpRequest
-#KODIPROP:inputstream.adaptive.stream_headers=X-Requested-With=SemarHttpRequest
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b5d217f06033494f8c536322324231eb:b6c80055ee20cf222d792ce702b3644a
-https://sports.semar.my.id/manifest/HubPremier2_4K.mpd|X-Requested-With=SemarHttpRequest
-
-#EXTINF:-1 tvg-url="https://epg.pw/api/epg.xml?lang=en&date=20260421&channel_id=369822" tvg-id="369822" tvg-logo="https://poster.starhubgo.com/Linear_channels2/222_1920x1080_HTV.png?w=272" group-title="Hub Premier", Hub Premier 2 (Alt)
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314078&extension=ts&play_token=1dWiSXJFZ1
 https://012v4.goiptv.us.ci/stream/starhub/hubpremier2hd/
 
 #EXTINF:-1 tvg-url="https://epg.pw/api/epg.xml?lang=en&date=20260421&channel_id=369793" tvg-id="369793" tvg-logo="https://poster.starhubgo.com/Linear_channels2/223_1920x1080_HTV.png?w=272" group-title="Hub Premier", Hub Premier 3
-#EXTVLCOPT:http-user-agent=OTT Navigator/1.7.4.1 (Linux; Android 12; id_ID; 87das6) ExoPlayerLib/2.15.1
-#EXTVLCOPT:http-header=X-Requested-With=SemarHttpRequest
-#KODIPROP:inputstream.adaptive.stream_headers=X-Requested-With=SemarHttpRequest
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d02ff184351548eea3981c38b6f48d9b:42d56d760c19c180ceaf2e7ef512e5be
-https://sports.semar.my.id/manifest/HubPremier3.mpd|X-Requested-With=SemarHttpRequest
-
-#EXTINF:-1 tvg-url="https://epg.pw/api/epg.xml?lang=en&date=20260421&channel_id=369793" tvg-id="369793" tvg-logo="https://poster.starhubgo.com/Linear_channels2/223_1920x1080_HTV.png?w=272" group-title="Hub Premier", Hub Premier 3 (Alt)
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314079&extension=ts&play_token=bW9r3i6SUO
 https://012v4.goiptv.us.ci/stream/starhub/hubpremier3hd/
-
-#EXTINF:-1 tvg-url="https://epg.pw/api/epg.xml?lang=en&date=20260421&channel_id=369775" tvg-id="369775" group-title="Hub Premier" tvg-logo="https://poster.starhubgo.com/Linear_channels2/224_1920x1080_HTV.png?w=272", Hub Premier 4
-#EXTVLCOPT:http-user-agent=OTT Navigator/1.7.4.1 (Linux; Android 12; id_ID; 87das6) ExoPlayerLib/2.15.1
-#EXTVLCOPT:http-header=X-Requested-With=SemarHttpRequest
-#KODIPROP:inputstream.adaptive.stream_headers=X-Requested-With=SemarHttpRequest
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=624bceaf2e78422c8ee1b8f31c638fb4:5223fbfd77b228f2f01e20358972850b
-https://sports.semar.my.id/manifest/HubPremier4.mpd|X-Requested-With=SemarHttpRequest
 
 #EXTINF:-1 tvg-url="https://epg.pw/api/epg.xml?lang=en&date=20260421&channel_id=369775" tvg-id="369775" group-title="Hub Premier" tvg-logo="https://poster.starhubgo.com/Linear_channels2/224_1920x1080_HTV.png?w=272", Hub Premier 4 (Alt)
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314080&extension=ts&play_token=tlQaY2nd4P
@@ -2112,13 +1975,6 @@ https://ilglobotv-live.akamaized.net/channels/InterTV/Live.m3u8
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/duqbirmk0d/out/v1/40f53c7cbc95498db3afd081c377d776/cenc.mpd
 
 #EXTINF:-1 tvg-id="NBA.TV.USA.us" tvg-name="NBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/250px-NBA_TV.svg.png" group-title="Sports", NBA TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/140.0
-#EXTVLCOPT:http-referrer=https://www.indihometv.com
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=834ec3cbface4fe992e995a32d35f587:e0a97198d9f2dfcb0a0483cd4b04414b
-#https://cdn08jtedge.indihometv.com/dassdvr/130/nba/manifest.mpd
-
-#EXTINF:-1 tvg-id="NBA.TV.USA.us" tvg-name="NBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/250px-NBA_TV.svg.png" group-title="Sports", NBA TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=84077d18bcf234a42de3745be106a87f:aee3069c062ec8ee6bfdd32985f287ef
@@ -2150,16 +2006,6 @@ https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/tcninbbnt5/out/v1/7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d8235cccf08d0ff149a20dfcd11ff68b:e8ea3a1ae6892eb76a73dc1b14d216d6
 https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/ry1hll2vi2/out/v1/7597903045b6429d8c9ef041b2ad9d98/cenc.mpd
-
-#EXTINF:-1 tvg-id="Premier League" tvg-name="Premier League" tvg-logo="https://object-streamo.emonaja.com/img/premierleague.png" group-title="Sports", Premier League TV
-#EXTVLCOPT:http-user-agent=VidioPlayer/4.3.0-WITH_ADS
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.vidio.com&referer=https://www.vidio.com/&user-agent=Vidio/6.43.9-8ec34856ef (Linux;Android 11) ExoPlayerLib/2.19.1
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://streamvidio.asismuhammad8888.workers.dev/index.mpd?id=9353&type=drm
-https://streamvidio.asismuhammad8888.workers.dev/index.mpd?id=9353&type=dash
 
 #EXTINF:-1 tvg-id="CBSSportsHQ.us" tvg-name="CBS Sports" tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="Sports", CBS Sports
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2281,13 +2127,6 @@ https://dms.redbull.tv/v5/destination/rallytv/07f960dc-fd36-466c-971f-64a597518b
 #EXTINF:-1 tvg-name="Red Bull TV" tvg-logo="https://object-streamo.emonaja.com/img/redbulltv.png" tvg-url="https://epg.pw/api/epg.json?lang=en&timezone=QXNpYS9KYWthcnRh&date=20260316&channel_id=527269" group-title="Sports", Red Bull TV
 #EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-
-#EXTINF:-1 tvg-id="Fight.Sports.id" tvg-name="Fight Sports" tvg-logo="https://www.visionplus.id/images/repository/658/658-LOGO-m.png" group-title="Sports", Fight Sports (Maxstream)
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=2f4c7790660c4a0ea82f38ca1998da13:9186a4ec6c2c2af731de820bf517e4e0
-#https://cdn08jtedge.indihometv.com/dassdvr/133/fightsport/manifest.mpd
 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2585,13 +2424,6 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/DwEnglishHD/mediampd/DwEnglishHD.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
 https://op-group2-swiftservesd-1.dens.tv/s/s11/index2.m3u8?app_type=web&userid=lite&chname=DW-TV
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=44003e0bf3cc4cfa8a35cead51e34d42:a46e0bee874435aeb96fcac1177275a1
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#EXTINF:-1 tvg-id="DW" tvg-name="DW" tvg-logo="https://www.visionplus.id/images/repository/197/514197-LOGO-m.png" group-title="News", DW
-#https://dv6fza91pwlw3.cloudfront.net/out/v1/3c64eec3b1594ec98aa758ed334fa6a0/index.mpd
-
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="News", Euronews (HD)
 https://dash4.antik.sk/live/test_euronews/playlist.m3u8
 
@@ -2644,19 +2476,6 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/c20d75deb06f401aa89681a9e5054de7/ind
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=97ff88352c574038b70e09642a90feec:66c062a920329c52fb446fac728c90d7
 https://indihuy.streamized.net/atm/mpd-vo/pramborstv/manifest.mpd
-
-#EXTINF:-1 group-title="Music" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQob6Q70WXIDeuY9KwpQdcXK72H5ITVwErQdQ&s", Musica
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-#EXTVLCOPT:http-origin=https://www.vidio.com
-#https://ratu77.adptv.workers.dev/index.mpd?id=7619&type=dash
-
-#EXTINF:-1 tvg-id="MusikIndonesia.id" tvg-logo="https://i.postimg.cc/xdtkx9P0/musik-indo.png" group-title="Music", Musik Indonesia (Maxstream)
-#EXTVLCOPT:http-referrer=https://maxstream.tv/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e092c5a72f3444419756b6a66c5e64da:8193b7dbb3e1c62ddd30546d3aaf9d40
-#https://cdn08jtedge.indihometv.com/dassdvr/134/musikindo/manifest_wuseetv.mpd
 
 #EXTINF:-1 tvg-id="MusikIndonesia.id" tvg-logo="https://i.postimg.cc/xdtkx9P0/musik-indo.png" group-title="Music", Musik Indonesia (Transvision)
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
